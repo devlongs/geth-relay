@@ -1,0 +1,16 @@
+server:
+  host: "0.0.0.0"
+  port: 8545
+
+upstream:
+  url: "http://localhost:8546"
+  timeout: 30s
+
+logging:
+  level: "info"
+  format: "json"
+
+limits:
+  max_body_size: 5242880
+  max_batch_items: 100
+  max_batch_response: 25000000
