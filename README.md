@@ -28,8 +28,6 @@ A high-performance Ethereum RPC proxy server written in Go that enhances standar
 git clone https://github.com/devlongs/geth-relay.git
 cd geth-relay
 
-# Install dependencies
-make install-deps
 
 # Build the binary
 make build
