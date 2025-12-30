@@ -5,7 +5,7 @@ A high-performance Ethereum RPC proxy server written in Go that enhances standar
 ## Features
 
 - **Standard RPC Proxy**: Forward all standard Ethereum JSON-RPC methods to upstream geth node
-- **Batch Request Support**: Handle multiple RPC calls in a single HTTP request (JSON-RPC 2.0 batch)
+- **Batch Request Support**: Handle multiple RPC calls in a single HTTP request 
 - **Request Size Limits**: Configurable limits matching geth defaults (5MB body, 100 batch items)
 - **Enhanced Error Handling**: Geth-compatible error codes and timeout detection
 - **Structured Logging**: Comprehensive logging with zap
